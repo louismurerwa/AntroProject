@@ -30,4 +30,22 @@ I implememented the following designs some of which are for extra scredit.I did 
 
 #### Features....
 
-<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab1-landingpage-louismurerwa/blob/master/screencap/mobile1.png">
+#### Alert if user forgots to select option.
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert.png">
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert%202.png">
+
+#### HoverUnselected
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hoverunselected.png">
+
+#### Hover Selected
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hover:selected.png">
+
+#### Output
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/aoutput.png">
+
+
