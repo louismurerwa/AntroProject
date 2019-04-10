@@ -1,155 +1,153 @@
 {
-    "title": "Its time to discover your inner self !!!",
-    "outcomes": {
-        "outcome1": {
-            "img": "img/outcome1.jpg",
-            "text": "cityquestion1",
-            "message": "Lets go Zimbabwe",
-            "funfact": "Thats where the heart is"
-        },
-        "outcome2": {
-            "img": "img/outcome1.jpg",
-            "text": "cityquestion1",
-            "message": "Lets go Australia",
-            "funfact": "The outback"
-        },
-        "outcome3": {
-            "img": "img/outcome1.jpg",
-            "text": "cityquestion1",
-            "message": "Lets fly to Beijing",
-            "funfact": "Great Wall"
-        },
-        "outcome4": {
-            "img": "img/outcome1.jpg",
-            "text": "cityquestion1",
-            "message": "Braxil there you go",
-            "funfact": "Brazil is the home of Samba"
-        }
+  "title": "Its time to discover your inner self !!!",
+  "outcomes": {
+    "outcome1": {
+      "img": "img/outcome1.jpg",
+      "text": "cityquestion1",
+      "message": "Travel to Ghana and experience the great Safari.",
+      "funfact": "Thats where the heart is"
     },
-    "questions": {
-        "options": [{
-                "question_name": "Which country place would you love to visit?",
-                "question_img_url": "img/question1.jpg",
-                "answers": [{
-                        "text": "The Indipendence Arc - Ghana",
-                        "img_url": "img/accra.jpg",
-                        "outcome": "outcome2",
-                        "weight": 4
-                    },
-                    {
-                        "text": "The Table Mountains - South Africa",
-                        "img_url": "img/capetownsa.jpg",
-                        "outcome": "outcome2",
-                        "weight": 3
-
-                    },
-                    {
-                        "text": "The Sphinx - Egypt",
-                        "img_url": "img/cairo.jpg",
-                        "outcome": "outcome1",
-                        "weight": 3
-                    },
-                    {
-                        "text": "The Victoria Falls - Zimbabwe",
-                        "img_url": "img/vicfalls.jpg",
-                        "outcome": "outcome1",
-                        "weight": 1
-                    }
-                ]
-            },
-            {
-                "question_name": "What animal would you prefer watching?",
-                "question_img_url": "img/question1.jpg",
-                "answers": [{
-                        "text": "The King of the Jungle",
-                        "img_url": "img/lion.jpg",
-                        "outcome": "outcome2",
-                        "weight": 2
-                    },
-                    {
-                        "text": "The King of the Derset",
-                        "img_url": "img/camel.jpg",
-                        "outcome": "outcome2",
-                        "weight": 5
-                    },
-                    {
-                        "text": "The King of Ice",
-                        "img_url": "img/penguin.jpg",
-                        "outcome": "outcome1",
-                        "weight": 1
-                    },
-                    {
-                        "text": "The King of Outback Austtralia",
-                        "img_url": "img/kangaroo.jpg",
-                        "outcome": "outcome1",
-                        "weight": 2
-                    }
-
-                ]
-
-            },
-            {
-                "question_name": "What is your favorite mode of travel?",
-                "question_img_url": "img/question1.jpg",
-                "answers": [{
-                        "text": "With the Birds",
-                        "img_url": "img/jet.jpg",
-                        "outcome": "outcome2",
-                        "weight": 2
-                    },
-                    {
-                        "text": "Good Ole Walking",
-                        "img_url": "img/foot.jpg",
-                        "outcome": "oSphinxutcome2",
-                        "weight": 5
-                    },
-                    {
-                        "text": "The King of the Wind ",
-                        "img_url": "img/motorcycle.jpg",
-                        "outcome": "outcome1",
-                        "weight": 3
-                    },
-                    {
-                        "text": "The Jack Sparrow Way",
-                        "img_url": "img/ship.jpg",
-                        "outcome": "outcome1",
-                        "weight": 1
-                    }
-
-                ]
-            },
-            {
-                "question_name": "Which trip would rather go to ?",
-                "question_img_url": "img/question1.jpg",
-                "answers": [{
-                        "text": "Lying on a Beach somewhere in the Tropics",
-                        "img_url": "img/beach.jpeg",
-                        "outcome": "outcome2",
-                        "weight": 3
-                    },
-                    {
-                        "text": "Safari",
-                        "img_url": "img/safari.jpg",
-                        "outcome": "outcome2",
-                        "weight": 1
-                    },
-                    {
-                        "text": "Hikiiiiing Infinity",
-                        "img_url": "img/hikinglevel.jpeg",
-                        "outcome": "outcome1",
-                        "weight": 2
-                    },
-                    {
-                        "text": "Mountain Bikiiing Infinity",
-                        "img_url": "img/mountain.jpg",
-                        "outcome": "outcome1",
-                        "weight": -1
-                    }
-
-                ]
-            }
-        ]
+    "outcome2": {
+      "img": "img/outcome1.jpg",
+      "text": "cityquestion1",
+      "message": "Travel to Australia and spend a few days in the outback.",
+      "funfact": "The outback"
+    },
+    "outcome3": {
+      "img": "img/outcome1.jpg",
+      "text": "cityquestion1",
+      "message": "Travel to South Africa and dont forget to swim with the sharks.",
+      "funfact": "Great Wall"
+    },
+    "outcome4": {
+      "img": "img/outcome1.jpg",
+      "text": "cityquestion1",
+      "message": "Lets to the South Pole to watch Penguins",
+      "funfact": "Lets to the South Pole to wathc"
     }
-
-
+  },
+  "questions": {
+    "options": [
+      {
+        "question_name": "Which country place would you love to visit?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "The Indipendence Arc - Ghana",
+            "img_url": "img/accra.jpg",
+            "outcome": "outcome2",
+            "weight": 4
+          },
+          {
+            "text": "The Table Mountains - South Africa",
+            "img_url": "img/capetownsa.jpg",
+            "outcome": "outcome2",
+            "weight": 3
+          },
+          {
+            "text": "The Sphinx - Egypt",
+            "img_url": "img/cairo.jpg",
+            "outcome": "outcome1",
+            "weight": 3
+          },
+          {
+            "text": "The Victoria Falls - Zimbabwe",
+            "img_url": "img/vicfalls.jpg",
+            "outcome": "outcome1",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "question_name": "What animal would you prefer watching?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "The King of the Jungle",
+            "img_url": "img/lion.jpg",
+            "outcome": "outcome2",
+            "weight": 2
+          },
+          {
+            "text": "The King of the Derset",
+            "img_url": "img/camel.jpg",
+            "outcome": "outcome2",
+            "weight": 5
+          },
+          {
+            "text": "The King of Ice",
+            "img_url": "img/penguin.jpg",
+            "outcome": "outcome1",
+            "weight": 1
+          },
+          {
+            "text": "The King of Outback Austtralia",
+            "img_url": "img/kangaroo.jpg",
+            "outcome": "outcome1",
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "question_name": "What is your favorite mode of travel?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "With the Birds",
+            "img_url": "img/jet.jpg",
+            "outcome": "outcome2",
+            "weight": 2
+          },
+          {
+            "text": "Good Ole Walking",
+            "img_url": "img/foot.jpg",
+            "outcome": "oSphinxutcome2",
+            "weight": 5
+          },
+          {
+            "text": "The King of the Wind ",
+            "img_url": "img/motorcycle.jpg",
+            "outcome": "outcome1",
+            "weight": 3
+          },
+          {
+            "text": "The Jack Sparrow Way",
+            "img_url": "img/ship.jpg",
+            "outcome": "outcome1",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "question_name": "Which trip would rather go to ?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "Lying on a Beach somewhere in the Tropics",
+            "img_url": "img/beach.jpeg",
+            "outcome": "outcome2",
+            "weight": 3
+          },
+          {
+            "text": "Safari",
+            "img_url": "img/safari.jpg",
+            "outcome": "outcome2",
+            "weight": 1
+          },
+          {
+            "text": "Hikiiiiing Infinity",
+            "img_url": "img/hikinglevel.jpeg",
+            "outcome": "outcome1",
+            "weight": 2
+          },
+          {
+            "text": "Mountain Bikiiing Infinity",
+            "img_url": "img/mountain.jpg",
+            "outcome": "outcome1",
+            "weight": -1
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -89,16 +89,16 @@ function selectOption() {
 //This function calculates the score and out puts the outcome of what the user fits into
 function score() {
     if (scoring <= 5) {
-        document.getElementById("message").innerHTML = scoring;
+        document.getElementById("message").innerHTML = "Travel Score " + scoring;
         document.getElementById("funfact").innerHTML = info.outcomes.outcome1.message;
     } else if (scoring > 5 && scoring <= 10) {
-        document.getElementById("message").innerHTML = scoring;
+        document.getElementById("message").innerHTML = "Travel Score " + scoring;
         document.getElementById("funfact").innerHTML = info.outcomes.outcome2.message;
     } else if (scoring > 10 && scoring <= 15) {
-        document.getElementById("message").innerHTML = scoring;
+        document.getElementById("message").innerHTML = "Travel Score " + scoring;
         document.getElementById("funfact").innerHTML = info.outcomes.outcome3.message;
     } else {
-        document.getElementById("message").innerHTML = scoring;
+        document.getElementById("message").innerHTML = "Travel Score " + scoring;
         document.getElementById("funfact").innerHTML = info.outcomes.outcome4.message;
     }
     modal.style.display = "block";
