@@ -7,58 +7,83 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" />
-
-    <title>AfroQuiz</title>
+    <title>Discover Yourself</title>
 </head>
 
 <body>
+    <!-- Main section of the body -->
     <div class="main">
-        <div class="header">
-            <h2>Quiz Time : Lets study some geography !!</h2>
+
+        <!-- Header -->
+        <div id="header">
         </div>
+
+        <!-- Question to be asked -->
+        <div id="question">
+            <p class="q1"></p>
+        </div>
+        <!-- Container for the answer section of the quiz -->
         <div id="container">
-            <div class="question">
-                <p id="q1">Which country is Ghana?</p>
-            </div>
+            <div id="alert">Make a decision!!! COME ON CHOOSE SOMETHING :)</div>
 
+            <!-- Options to be selected -->
             <div class="answers">
+
                 <div class="answer">
-                    <input type="radio" id="cityquestion1" value="city" name="solution" />
-                    <label for="cityquestion1">The Indipendence Arc
-                        <img src="img/accra.jpg" /></label>
+
                 </div>
 
                 <div class="answer">
-                    <input type="radio" id="cityquestion2" value="city" name="solution" />
-                    <label for="cityquestion2">The Table Mountains
-                        <img src="img/capetownsa.jpg" /></label>
+
                 </div>
             </div>
 
             <div class="answers">
                 <div class="answer">
-                    <input type="radio" id="cityquestion3" value="city" name="solution" />
-                    <label for="cityquestion3"> The Sphynx
-                        <img src="img/cairo.jpg" /></label>
+
                 </div>
                 <div class="answer">
-                    <input type="radio" id="cityquestion4" value="city" name="solution" />
-                    <label for="cityquestion4">The Victoria Falls
-                        <img src="img/vicfalls.jpg" /></label>
+
                 </div>
             </div>
+
+            <!-- Buttons -->
 
             <div id="but">
                 <button type="submit" id="subButton">
-                    Search
+                    Next
+                </button>
+                <button type="submit" id="submision" onclick="score()">
+                    Discover my true self
+                </button>
+                <button type="submit" id="restart" onclick="window.location.reload()">
+                    Restart
                 </button>
             </div>
-        </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+            <!-- Modal Citation:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2 -->
+            <!-- Modal content -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2 id="message"></h2>
+                    </div>
+
+                    <div class="modal-body">
+                        <p id="funfact">Some text in the Modal Body</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <h3>Powered by AfricaToTheWorld</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>

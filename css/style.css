@@ -1,132 +1,294 @@
-/* Citation:Image Pixabay */
+/* Citation for the Images:https://pixabay.com/images/search/ */
+/* Style the whole body */
 .main {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    /* display: flex; */
+  font-family: "Raleway", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 
-
-
-.header {
-    height: 150px;
-    /* width: 100%; */
-    background-image: url(../img/capetown.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    align-items: center;
-    text-align: center;
-    /* margin-bottom: 3%; */
+/* Style the header */
+#header {
+  background-image: url(../img/capetown.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-items: center;
+  text-align: center;
 }
 
 #container {
-
-    align-content: center;
-    justify-items: center;
-    justify-self: center;
-    /* background-color: red; */
-    /* align-self: center; */
+  float: center;
 }
 
 h2 {
-    font-size: 30px;
-    padding-top: 7.5%;
+  font-size: 40px;
+  padding-top: 7.5%;
 }
 
-
-.question {
-
-    /* display: inline; */
-    height: 80px;
-    text-align: center;
-    background-image: url(../img/capeview.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    align-items: center;
-    font-size: 20px;
-    width: 60%;
-
+/* Style the question section*/
+#question {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/capeview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-items: center;
+  font-size: 30px;
+  margin-top: -2.5%;
 }
 
-#q1 {
-    padding-top: 2%;
+#alert {
+  display: none;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: red;
+  font-size: 20px;
 }
 
+.q1 {
+  padding-top: 2%;
+}
+
+/* Style the answers */
 .answers {
-    align-self: center;
-    display: flex;
-    width: 60%;
-    /* flex-direction: row; */
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .answer {
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    /* border-style: solid; */
-    margin-bottom: 1%;
-    /* background-color: green; */
-    width: 50%;
-    height: 30%;
-    margin: 1%;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  border-style: solid;
+  margin-bottom: 1%;
+  width: 400px;
+  height: 30%;
+  margin: 1%;
 }
 
 /* Citaion for box animation:http://tobiasahlin.com/blog/how-to-animate-box-shadow/ */
+/* Citation for transformations. */
+/* citation:https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ */
+
 .answer:hover {
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.5s ease-in-out;
-    background-color: rgb(214, 213, 213);
-    /* color: aliceblue; */
-    cursor: pointer;
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.2);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
+  background-color: rgb(214, 213, 213);
+  cursor: pointer;
 }
 
+input:checked + label {
+  color: green;
+  width: 100%;
+}
 
-
-/* Citation for changing state of card: https://css-tricks.com/almanac/selectors/c/checked/*/
-
-input:checked+label {
-    color: green;
-    width: 100%;
+input[type="radio"] {
+  display: none;
+}
+span {
+  display: inline;
 }
 
 img {
-    height: 80%;
-    width: 100%;
+  height: 80%;
+  width: 100%;
 }
 
 #but {
-
-    /* margin: 0px auto; */
-    align-items: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
 }
 
-#subButton {
-    margin-left: 50%;
-    font-family: 'Permanent Marker', cursive;
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 9px 15px;
-    text-align: center;
-    /* display: inline-block; */
-    font-size: 16px;
-    background-color: Transparent;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
+/* Style the submit button */
 
+#subButton {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 9px 15px;
+  text-align: center;
+  font-size: 16px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 #subButton:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+}
 
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    cursor: pointer;
+#submision {
+  display: none;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 9px 15px;
+  text-align: center;
+  font-size: 16px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
 
+#submision:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#restart {
+  display: none;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 9px 15px;
+  text-align: center;
+  font-size: 16px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#restart:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  text-align: center;
+  background-image: url(../img/capeview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  /* background-image: url(../img/capetown.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#funfact {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+  .answers {
+    display: flex;
+    flex-direction: column;
+  }
 }
