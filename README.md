@@ -35,16 +35,16 @@ I implememented the following designs some of which are for extra scredit.I did 
 <img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert.png">
 
 
-
+#### Alert plus Hover
 <img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert%202.png">
 
 #### HoverUnselected :If not option has been selected.
 
-<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hoverunselected.png">
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hoverunselcted.png">
 
 #### Hover Selected:If option has been selected
 
-<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hover:seleted.png">
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hover:selected.png">
 
 #### Output:Modal Output
 
