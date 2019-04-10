@@ -18,11 +18,12 @@ I implememented the following designs some of which are for extra scredit.I did 
      - I have restart which restarts quiz.
 4. I have an alert system if a user doesnt select a warning meessage appears at the top and dissapears.
 5. I implemented a weight system which tracks the weights of options selected by the user and returns a recomandation.
+6. This site is also available for mobile.
 
 ### Output:
 
 > I have a modal which slides from the top.Ittttss cooool.
 
-**_The js behind this is phenomanal._**
+**_The js behind this is phenomenal._**
 
 ## I have a ton suprise hidden features also so enjoy :)
