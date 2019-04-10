@@ -27,3 +27,7 @@ I implememented the following designs some of which are for extra scredit.I did 
 **_The js behind this is phenomenal._**
 
 ## I have a ton suprise hidden features also so enjoy :)
+
+#### Features....
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab1-landingpage-louismurerwa/blob/master/screencap/mobile1.png">
