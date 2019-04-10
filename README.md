@@ -18,11 +18,36 @@ I implememented the following designs some of which are for extra scredit.I did 
      - I have restart which restarts quiz.
 4. I have an alert system if a user doesnt select a warning meessage appears at the top and dissapears.
 5. I implemented a weight system which tracks the weights of options selected by the user and returns a recomandation.
+6. This site is also available for mobile.
 
 ### Output:
 
 > I have a modal which slides from the top.Ittttss cooool.
 
-**_The js behind this is phenomanal._**
+**_The js behind this is phenomenal._**
 
 ## I have a ton suprise hidden features also so enjoy :)
+
+#### Features....
+
+#### Alert if user forgots to select option.
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert.png">
+
+
+#### Alert plus Hover
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/alert%202.png">
+
+#### HoverUnselected :If not option has been selected.
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hoverunselcted.png">
+
+#### Hover Selected:If option has been selected
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/hover:selected.png">
+
+#### Output:Modal Output
+
+<img width="1440" alt="screen shot 2019-02-03 at 2 59 34 am" src="https://github.com/dartmouth-cs52-19S/lab2-louismurerwa/blob/master/caps/aoutput.png">
+
+
