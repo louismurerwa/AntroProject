@@ -88,18 +88,22 @@ function selectOption() {
 
 //This function calculates the score and out puts the outcome of what the user fits into
 function score() {
-    if (scoring <= 5) {
-        document.getElementById("message").innerHTML = "Travel Score " + scoring;
-        document.getElementById("funfact").innerHTML = info.outcomes.outcome1.message;
-    } else if (scoring > 5 && scoring <= 10) {
-        document.getElementById("message").innerHTML = "Travel Score " + scoring;
-        document.getElementById("funfact").innerHTML = info.outcomes.outcome2.message;
-    } else if (scoring > 10 && scoring <= 15) {
-        document.getElementById("message").innerHTML = "Travel Score " + scoring;
-        document.getElementById("funfact").innerHTML = info.outcomes.outcome3.message;
-    } else {
-        document.getElementById("message").innerHTML = "Travel Score " + scoring;
+    if (scoring <= 6) {
+        document.getElementById("message").innerHTML = "Homo Habilis";
         document.getElementById("funfact").innerHTML = info.outcomes.outcome4.message;
+        document.getElementById("modal-picture").innerHTML = '<img src="' + info.outcomes.outcome3.img + '" />';
+    } else if (scoring > 6 && scoring <= 10) {
+        document.getElementById("message").innerHTML = "Sahelanthropus Tchadensis";
+        document.getElementById("funfact").innerHTML = info.outcomes.outcome1.message;
+        document.getElementById("modal-picture").innerHTML = '<img src="' + info.outcomes.outcome3.img + '" />';
+    } else if (scoring > 10 && scoring <= 14) {
+        document.getElementById("message").innerHTML = "Austrolopithecus Afarensis";
+        document.getElementById("funfact").innerHTML = info.outcomes.outcome3.message;
+        document.getElementById("modal-picture").innerHTML = '<img src="' + info.outcomes.outcome3.img + '" />';
+    } else {
+        document.getElementById("message").innerHTML = "Ardipithecus Ramidus";
+        document.getElementById("funfact").innerHTML = info.outcomes.outcome2.message;
+        document.getElementById("modal-picture").innerHTML = '<img src="' + info.outcomes.outcome3.img + '" />';
     }
     modal.style.display = "block";
     document.getElementById("submision").style.display = "none";

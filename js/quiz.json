@@ -1,150 +1,150 @@
 {
-  "title": "Its time to discover your inner self !!!",
+  "title": "Hello Visitor, I am Louis and today we are going to play a game that will allow you to explore the hominin world",
   "outcomes": {
     "outcome1": {
-      "img": "img/outcome1.jpg",
-      "text": "cityquestion1",
-      "message": "Travel to Ghana and experience the great Safari.",
+      "img": "img/sahel.jpg",
+      "text": "Sahelanthropus Tchadensis",
+      "message": "Sahelanthropus tchadensis is one of the oldest known species in the human family tree. This species lived sometime between 7 and 6 million years ago in West-Central Africa (Chad). Walking upright may have helped this species survive in diverse habitats, including forests and grasslands. Although we have only cranial material from Sahelanthropus, studies so far show this species had a combination of ape-like and human-like features. Ape-like features included a small brain (even slightly smaller than a chimpanzee’s), sloping face, very prominent browridges, and elongated skull. Human-like features included small canine teeth, a short middle part of the face, and a spinal cord opening underneath the skull instead of towards the back as seen in non-bipedal apes.",
       "funfact": "Thats where the heart is"
     },
     "outcome2": {
-      "img": "img/outcome1.jpg",
-      "text": "cityquestion1",
-      "message": "Travel to Australia and spend a few days in the outback.",
+      "img": "img/ardi.jpg",
+      "text": "Ardipithecus Ramidus",
+      "message": "Ardipithecus ramidus was first reported in 1994; in 2009, scientists announced a partial skeleton, nicknamed ‘Ardi’. The foot bones in this skeleton indicate a divergent large toe combined with a rigid foot – it's still unclear what this means concerning bipedal behavior. The pelvis, reconstructed from a crushed specimen, is said to show adaptations that combine tree-climbing and bipedal activity. The discoverers argue that the ‘Ardi’ skeleton reflects a human-African ape common ancestor that was not chimpanzee-like. A good sample of canine teeth of this species indicates very little difference in size between males and females in this species.",
       "funfact": "The outback"
     },
     "outcome3": {
-      "img": "img/outcome1.jpg",
-      "text": "cityquestion1",
-      "message": "Travel to South Africa and dont forget to swim with the sharks.",
+      "img": "img/afarensis.jpg",
+      "text": "Austrolopithecus Afarensis",
+      "message": "Australopithecus afarensis is one of the longest-lived and best-known early human species—paleoanthropologists have uncovered remains from more than 300 individuals! Found between 3.85 and 2.95 million years ago in Eastern Africa (Ethiopia, Kenya, Tanzania), this species survived for more than 900,000 years, which is over four times as long as our own species has been around.  It is best known from the sites of Hadar, Ethiopia (‘Lucy’, AL 288-1 and the 'First Family', AL 333); Dikika, Ethiopia (Dikika ‘child’ skeleton); and Laetoli (fossils of this species plus the oldest documented bipedal footprint trails).",
       "funfact": "Great Wall"
     },
     "outcome4": {
-      "img": "img/outcome1.jpg",
-      "text": "cityquestion1",
-      "message": "Lets to the South Pole to watch Penguins",
+      "img": "img/homohabilis.jpg",
+      "text": "Homo Erectus",
+      "message": "Early African Homo erectus fossils (sometimes called Homo ergaster) are the oldest known early humans to have possessed modern human-like body proportions with relatively elongated legs and shorter arms compared to the size of the torso. These features are considered adaptations to a life lived on the ground, indicating the loss of earlier tree-climbing adaptations, with the ability to walk and possibly run long distances. Compared with earlier fossil humans, note the expanded braincase relative to the size of the face. The most complete fossil individual of this species is known as the ‘Turkana Boy’ – a well-preserved skeleton (though minus almost all the hand and foot bones), dated around 1.6 million years old.  Microscopic study of the teeth indicates that he grew up at a growth rate similar to that of a great ape. There is fossil evidence that this species cared for old and weak individuals. The appearance of Homo erectus in the fossil record is often associated with the earliest handaxes, the first major innovation in stone tool technology.",
       "funfact": "Lets to the South Pole to wathc"
     }
   },
   "questions": {
     "options": [
       {
-        "question_name": "Which country place would you love to visit?",
+        "question_name": "TRIP TIME : Which continent would you love visit?",
         "question_img_url": "img/question1.jpg",
         "answers": [
           {
-            "text": "The Indipendence Arc - Ghana",
-            "img_url": "img/accra.jpg",
+            "text": "Europe",
+            "img_url": "img/NandertalFamily.jpg",
+            "outcome": "outcome2",
+            "weight": 1
+          },
+          {
+            "text": "Africa",
+            "img_url": "img/southafrica.jpg",
+            "outcome": "outcome2",
+            "weight": 2
+          },
+          {
+            "text": "Asia",
+            "img_url": "img/asia.jpeg",
+            "outcome": "outcome1",
+            "weight": 3
+          },
+          {
+            "text": "The Americas",
+            "img_url": "img/theamericas.jpg",
+            "outcome": "outcome1",
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "question_name": " TIME TRAVEL : Which timeline would you fancy travelling to?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "7 million years ago",
+            "img_url": "img/7million.jpg",
+            "outcome": "outcome2",
+            "weight": 2
+          },
+          {
+            "text": " 3.5 million years",
+            "img_url": "img/3.5million.jpg",
+            "outcome": "outcome2",
+            "weight": 3
+          },
+          {
+            "text": " 2 million years ago",
+            "img_url": "img/2million.jpg",
+            "outcome": "outcome1",
+            "weight": 4
+          },
+          {
+            "text": "500 000 years ago",
+            "img_url": "img/500thousand.jpeg",
+            "outcome": "outcome1",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "question_name": "Trip time : Where would you rather chill?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "Derset - Sahel",
+            "img_url": "img/dersert.jpg",
+            "outcome": "outcome1",
+            "weight": 2
+          },
+          {
+            "text": "Ice -",
+            "img_url": "img/antarcticd.jpg",
+            "outcome": "outcome2",
+            "weight": 1
+          },
+          {
+            "text": "Rainforest ",
+            "img_url": "img/rainforest.jpg",
+            "outcome": "outcome3",
+            "weight": 3
+          },
+          {
+            "text": "Sparse Savanna",
+            "img_url": "img/savvana.jpg",
+            "outcome": "outcome4",
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "question_name": "Which hominin feature would you choose?",
+        "question_img_url": "img/question1.jpg",
+        "answers": [
+          {
+            "text": "Molar Tooth",
+            "img_url": "img/molar.jpeg",
+            "outcome": "outcome2",
+            "weight": 2
+          },
+          {
+            "text": "Bipedalism",
+            "img_url": "img/biped.jpg",
             "outcome": "outcome2",
             "weight": 4
           },
           {
-            "text": "The Table Mountains - South Africa",
-            "img_url": "img/capetownsa.jpg",
-            "outcome": "outcome2",
-            "weight": 3
-          },
-          {
-            "text": "The Sphinx - Egypt",
-            "img_url": "img/cairo.jpg",
+            "text": "Tree Hiking",
+            "img_url": "img/treeclimb.jpg",
             "outcome": "outcome1",
             "weight": 3
           },
           {
-            "text": "The Victoria Falls - Zimbabwe",
-            "img_url": "img/vicfalls.jpg",
+            "text": "Speed",
+            "img_url": "img/speed.jpg",
             "outcome": "outcome1",
             "weight": 1
-          }
-        ]
-      },
-      {
-        "question_name": "What animal would you prefer watching?",
-        "question_img_url": "img/question1.jpg",
-        "answers": [
-          {
-            "text": "The King of the Jungle",
-            "img_url": "img/lion.jpg",
-            "outcome": "outcome2",
-            "weight": 2
-          },
-          {
-            "text": "The King of the Derset",
-            "img_url": "img/camel.jpg",
-            "outcome": "outcome2",
-            "weight": 5
-          },
-          {
-            "text": "The King of Ice",
-            "img_url": "img/penguin.jpg",
-            "outcome": "outcome1",
-            "weight": 1
-          },
-          {
-            "text": "The King of Outback Austtralia",
-            "img_url": "img/kangaroo.jpg",
-            "outcome": "outcome1",
-            "weight": 2
-          }
-        ]
-      },
-      {
-        "question_name": "What is your favorite mode of travel?",
-        "question_img_url": "img/question1.jpg",
-        "answers": [
-          {
-            "text": "With the Birds",
-            "img_url": "img/jet.jpg",
-            "outcome": "outcome2",
-            "weight": 2
-          },
-          {
-            "text": "Good Ole Walking",
-            "img_url": "img/foot.jpg",
-            "outcome": "oSphinxutcome2",
-            "weight": 5
-          },
-          {
-            "text": "The King of the Wind ",
-            "img_url": "img/motorcycle.jpg",
-            "outcome": "outcome1",
-            "weight": 3
-          },
-          {
-            "text": "The Jack Sparrow Way",
-            "img_url": "img/ship.jpg",
-            "outcome": "outcome1",
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "question_name": "Which trip would rather go to ?",
-        "question_img_url": "img/question1.jpg",
-        "answers": [
-          {
-            "text": "Lying on a Beach somewhere in the Tropics",
-            "img_url": "img/beach.jpeg",
-            "outcome": "outcome2",
-            "weight": 3
-          },
-          {
-            "text": "Safari",
-            "img_url": "img/safari.jpg",
-            "outcome": "outcome2",
-            "weight": 1
-          },
-          {
-            "text": "Hikiiiiing Infinity",
-            "img_url": "img/hikinglevel.jpeg",
-            "outcome": "outcome1",
-            "weight": 2
-          },
-          {
-            "text": "Mountain Bikiiing Infinity",
-            "img_url": "img/mountain.jpg",
-            "outcome": "outcome1",
-            "weight": -1
           }
         ]
       }

@@ -7,7 +7,7 @@
 
 /* Style the header */
 #header {
-  background-image: url(../img/capetown.jpg);
+  background-image: url(../img/cave.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,11 +30,10 @@ h2 {
   height: 80px;
   width: 100%;
   text-align: center;
-  background-image: url(../img/capeview.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: black;
   align-items: center;
   font-size: 30px;
   margin-top: -2.5%;
@@ -85,7 +84,7 @@ h2 {
   cursor: pointer;
 }
 
-input:checked + label {
+input:checked+label {
   color: green;
   width: 100%;
 }
@@ -93,12 +92,13 @@ input:checked + label {
 input[type="radio"] {
   display: none;
 }
+
 span {
   display: inline;
 }
 
 img {
-  height: 80%;
+  height: 200px;
   width: 100%;
 }
 
@@ -197,7 +197,7 @@ img {
   background-color: rgb(0, 0, 0);
 
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(14 14 14 / 86%);
   /* Black w/ opacity */
   color: white;
 }
@@ -205,7 +205,6 @@ img {
 /* Modal Content */
 .modal-content {
   text-align: center;
-  background-image: url(../img/capeview.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +212,7 @@ img {
   background-color: rgb(0, 0, 0);
 
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(14 14 14 / 86%);
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -223,6 +222,12 @@ img {
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
+}
+
+#modal-picture {
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
 
 /* Add Animation */
@@ -272,8 +277,11 @@ img {
 }
 
 .modal-body {
-  padding: 2px 16px;
+  align-content: center;
+  ;
 }
+
+
 
 .modal-footer {
   /* background-image: url(../img/capetown.jpg);
@@ -283,7 +291,8 @@ img {
 }
 
 #funfact {
-  font-size: 40px;
+  font-size: 15px;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 640px) {
