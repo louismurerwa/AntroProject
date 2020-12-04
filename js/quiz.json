@@ -29,37 +29,37 @@
   "questions": {
     "options": [
       {
-        "question_name": "TRIP TIME : Which continent would you love visit?",
+        "question_name": "TRIP TIME : Which continent would you love to explore?",
         "question_img_url": "img/question1.jpg",
         "answers": [
           {
             "text": "Europe",
             "img_url": "img/NandertalFamily.jpg",
             "outcome": "outcome2",
-            "weight": 1
+            "weight": 2
           },
           {
-            "text": "Africa",
+            "text": "West-Central Africa",
             "img_url": "img/southafrica.jpg",
             "outcome": "outcome2",
-            "weight": 2
+            "weight": 4
           },
           {
             "text": "Asia",
             "img_url": "img/asia.jpeg",
             "outcome": "outcome1",
-            "weight": 3
+            "weight": 6
           },
           {
             "text": "The Americas",
             "img_url": "img/theamericas.jpg",
             "outcome": "outcome1",
-            "weight": 4
+            "weight": 8
           }
         ]
       },
       {
-        "question_name": " TIME TRAVEL : Which timeline would you fancy travelling to?",
+        "question_name": " TIME TRAVEL : Which timeline would you love to explore?",
         "question_img_url": "img/question1.jpg",
         "answers": [
           {
@@ -69,52 +69,52 @@
             "weight": 2
           },
           {
-            "text": " 3.5 million years",
+            "text": " 4.5 million years",
             "img_url": "img/3.5million.jpg",
             "outcome": "outcome2",
-            "weight": 3
-          },
-          {
-            "text": " 2 million years ago",
-            "img_url": "img/2million.jpg",
-            "outcome": "outcome1",
             "weight": 4
           },
           {
-            "text": "500 000 years ago",
+            "text": " 2.95 million years ago",
+            "img_url": "img/2million.jpg",
+            "outcome": "outcome1",
+            "weight": 6
+          },
+          {
+            "text": "1.89 million",
             "img_url": "img/500thousand.jpeg",
             "outcome": "outcome1",
-            "weight": 1
+            "weight": 8
           }
         ]
       },
       {
-        "question_name": "Trip time : Where would you rather chill?",
+        "question_name": "Trip time : Which hominin envieronment would you love to explore?",
         "question_img_url": "img/question1.jpg",
         "answers": [
           {
             "text": "Derset - Sahel",
             "img_url": "img/dersert.jpg",
             "outcome": "outcome1",
-            "weight": 2
+            "weight": 6
           },
           {
-            "text": "Ice -",
+            "text": "Ice - Snowplains",
             "img_url": "img/antarcticd.jpg",
             "outcome": "outcome2",
-            "weight": 1
+            "weight": 8
           },
           {
-            "text": "Rainforest ",
+            "text": "Rainforest",
             "img_url": "img/rainforest.jpg",
             "outcome": "outcome3",
-            "weight": 3
+            "weight": 4
           },
           {
             "text": "Sparse Savanna",
             "img_url": "img/savvana.jpg",
             "outcome": "outcome4",
-            "weight": 4
+            "weight": 2
           }
         ]
       },
